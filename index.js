@@ -8,4 +8,4 @@ function inc(n) {n += 1}
 function dec(n) {n -= 1}
 
 function makeInt(n) {return parsInt(n, 10)}
-function preserveDecimal(n) {return
+function preserveDecimal(n) {return parseFloat(n)}
