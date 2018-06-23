@@ -7,4 +7,5 @@ function divide(a, b) {return a/b}
 function inc(n) {n += 1}
 function dec(n) {n -= 1}
 
-makeInt(n) {return parsInt(n, 10)}
+function makeInt(n) {return parsInt(n, 10)}
+function preserveDecimal(n) {return
